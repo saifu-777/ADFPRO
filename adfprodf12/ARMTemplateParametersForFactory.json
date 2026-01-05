@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfprodf12"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "dfproserver123.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "dfprodb1"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "admin786"
+		},
+		"ls_REST_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://adfpro123.dfs.core.windows.net/"
+		},
+		"scheduled_properties_scheduled_parameters_schema": {
+			"value": "source"
+		},
+		"scheduled_properties_scheduled_parameters_table": {
+			"value": "Orders"
+		},
+		"scheduled_properties_scheduled_parameters_backdate": {
+			"value": "' '"
+		}
+	}
+}
