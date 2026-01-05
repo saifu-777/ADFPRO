@@ -1,0 +1,29 @@
+{
+	"name": "sinkselectedfiles",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FirstLinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"param": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "csvfiles",
+				"fileSystem": "reporting"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
