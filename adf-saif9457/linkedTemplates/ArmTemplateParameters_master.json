@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-saif9457"
+		},
+		"FirstLinkedservice_accountKey": {
+			"value": ""
+		},
+		"FirstLinkedservice_properties_typeProperties_url": {
+			"value": "https://saifstorageaccount9457.dfs.core.windows.net/"
+		},
+		"GitLinnkedService_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"manTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/03c0fdea-2daf-46e5-9ba8-45d3b53a3cc9/resourceGroups/FirstResource/providers/Microsoft.Storage/storageAccounts/saifstorageaccount9457"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
